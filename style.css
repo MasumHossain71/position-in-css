@@ -30,6 +30,7 @@
 .photo-frame:hover .image-detail {
   display: block;
   background-color: rgba(128, 128, 128, 0.7);
+  cursor: pointer;
 }
 .photo-frame:hover .image-detail h3{
    background-color: black;
