@@ -9,7 +9,10 @@
   position: relative;
   box-shadow: 3px 3px 15px;
   margin: 10px;
-  transition: 0.5s;
+  overflow: hidden;
+}
+.photo{
+   transition: 0.5s;
 }
 .photo-frame .photo img {
   width: 100%;
@@ -20,6 +23,9 @@
   top: 0;
   display: none;
   height: 400px;
+}
+.photo-frame:hover .photo{
+   transform: scale(1.1);
 }
 .photo-frame:hover .image-detail {
   display: block;
